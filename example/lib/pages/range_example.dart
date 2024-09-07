@@ -29,6 +29,7 @@ class _TableRangeExampleState extends State<TableRangeExample> {
       body: TableCalendar(
         firstDay: kFirstDay,
         lastDay: kLastDay,
+        onDayTapped: (day){},
         focusedDay: _focusedDay,
         selectedDayPredicate: (day) => isSameDay(_selectedDay, day),
         rangeStartDay: _rangeStart,

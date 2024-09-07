@@ -137,6 +137,7 @@ class _TableComplexExampleState extends State<TableComplexExample> {
           ),
           TableCalendar<Event>(
             firstDay: kFirstDay,
+            onDayTapped: (day){},
             lastDay: kLastDay,
             focusedDay: _focusedDay.value,
             headerVisible: false,

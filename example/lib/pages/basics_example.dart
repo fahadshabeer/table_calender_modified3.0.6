@@ -24,6 +24,7 @@ class _TableBasicsExampleState extends State<TableBasicsExample> {
       ),
       body: TableCalendar(
         firstDay: kFirstDay,
+        onDayTapped: (day){},
         lastDay: kLastDay,
         focusedDay: _focusedDay,
         calendarFormat: _calendarFormat,
